@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- Id: es-ES.xml 14543 2010-02-04 04:29:34Z eddieajau  -->
+<metafile
+	version="1.6"
+	client="installation">
+	<name>Español (Formal Internacional)</name>
+	<version>1.6.1</version>
+	<creationDate>Enero 2011</creationDate>
+	<author>Proyecto Joomla! Spanish</author>
+	<authorEmail>traductores16@joomlaspanish.org</authorEmail>
+	<authorUrl>www.joomlaspanish.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. Todos los derechos reservados.</copyright>
+	<license>Licencia Pública General GNU version 2 o superior; ver LICENSE.txt</license>
+	<description>Traducido por Joomla!Spanish - www.joomlaspanish.org - Enero 2011</description>
+	<files>
+		<filename>es-ES.ini</filename>
+	</files>
+	<metadata>
+		<name>Español (Formal Internacional)</name>
+		<tag>es-ES</tag>
+		<rtl>0</rtl>
+	</metadata>
+	<params />
+</metafile>

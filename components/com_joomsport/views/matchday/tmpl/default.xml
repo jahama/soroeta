@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Matchday Layout">
+		<message>
+			<![CDATA[Matchday Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>MatchDay Layout</name>
+		<description>MatchDay Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="id" type="matchday" default="0" label="Select MatchDay" description="MatchDay" />
+		</url>
+		<params>
+		</params>
+	</state>
+	<!-- 1.6 -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_joomsport/fields">
+
+			<field name="id" type="matchday" default="0" required="true" label="Select MatchDay" description="MatchDay" />
+		</fieldset>
+	</fields>
+</metadata>

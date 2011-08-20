@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Season Calendar Layout">
+		<message>
+			<![CDATA[Season Calendar Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Season Calendar Layout</name>
+		<description>Season Calendar Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="sid" type="season" default="0" label="Select Season" description="Season" />
+		</url>
+		<params>
+		</params>
+	</state>
+	<!-- 1.6 -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_joomsport/fields">
+
+			<field name="sid" type="season" default="0" required="true" label="Select Season" description="Season" />
+		</fieldset>
+	</fields>
+</metadata>

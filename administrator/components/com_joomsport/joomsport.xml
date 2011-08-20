@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+  <name>JoomSport</name>
+  <creationDate>May 2011</creationDate>
+  <author>BearDev</author>
+   <authorEmail>beardev@beardev.com</authorEmail>
+  <authorUrl>www.beardev.com</authorUrl>
+  <version>1.1.4</version>
+  <description>JoomSport. Create your own league.</description>
+  
+  <files>
+    <filename>joomsport.php</filename>
+	<filename>index.html</filename>
+    <filename>bl_lang.php</filename>
+    <filename>controller.php</filename>
+    <filename>router.php</filename>
+	<folder>css</folder>	
+	<folder>images</folder>
+	<folder>js</folder>
+	<folder>views</folder>
+	<folder>includes</folder>
+	<folder>controllers</folder>
+	<folder>templates</folder>
+	<folder>libs</folder>
+	
+ </files>
+ <install>
+	<sql>
+		<file charset="utf8" driver="mysql">install.sql</file>
+		
+	</sql>
+</install>
+<scriptfile>install.php</scriptfile> 	
+
+  <languages>
+        <language tag="en-GB">Language/FE/en-GB.com_joomsport.ini</language>
+        <language tag="fr-FR">Language/FE/fr-FR.com_joomsport.ini</language>
+	<language tag="it-IT">Language/FE/it-IT.com_joomsport.ini</language>
+        <language tag="el-GR">Language/FE/el-GR.com_joomsport.ini</language>
+        <language tag="es-ES">Language/FE/es-ES.com_joomsport.ini</language>
+    </languages>	
+  <installfile>install.joomsport.php</installfile>
+  <administration>
+     <menu img="components/com_joomsport/img/beardev.gif" alt="JoomSport/JoomSport">COM_JOOMSPORT</menu>
+	<submenu>
+        	<menu task="tour_list" img="components/com_joomsport/img/tourn16.png">TOURNAMENT</menu>
+		<menu task="season_list" img="components/com_joomsport/img/season16.png">SEASON</menu>
+        	<menu task="team_list" img="components/com_joomsport/img/team16.png">TEAMS</menu>
+ 		<menu task="matchday_list" img="components/com_joomsport/img/match16.png">MATCHDAY</menu>
+        	<menu task="player_list" img="components/com_joomsport/img/players16.png">PLAYERS</menu>
+		 <menu task="pos_list" img="components/com_joomsport/img/players16.png">POSITIONS</menu>
+        	<menu task="event_list" img="components/com_joomsport/img/events16.png">EVENTS</menu>    
+        	<menu task="group_list" img="components/com_joomsport/img/group16.png">GROUPS</menu>
+		<menu task="moder_list" img="components/com_joomsport/img/moder16.png">MODERATORS</menu> 
+		<menu task="fields_list" img="components/com_joomsport/img/additional16.png">EXTRAFIELDS</menu>  
+		<menu task="languages" img="components/com_joomsport/img/config16.png">LANGUAGES</menu>		
+		<menu task="config" img="components/com_joomsport/img/config16.png">CONFIGURATION</menu>
+		<menu task="help" img="components/com_joomsport/img/about16.png">HELP</menu>
+		<menu task="about" img="components/com_joomsport/img/about16.png">ABOUT</menu>      
+	         
+    </submenu>
+    <files>
+	<folder>img</folder>
+	
+	<filename>index.html</filename>
+	<filename>admin.joomsport.html.php</filename>
+	<filename>admin.joomsport.php</filename>
+	<filename>language.joomsport.php</filename>
+	<filename>admin.joomsport.class.php</filename>
+	<filename>toolbar.joomsport.php</filename>
+	<filename>toolbar.joomsport.html.php</filename>
+	<filename>jbl_about.php</filename>
+	<filename>jbl_help.php</filename>
+	<filename>install.sql</filename>
+
+	<folder>elements</folder>
+	<folder>fields</folder>
+	<folder>bearleague</folder>
+	<folder>Language</folder>  
+	<folder>color_piker</folder>
+	
+    </files>
+	<languages>
+        <language tag="en-GB">Language/BE/en-GB.com_joomsport.ini</language>
+        <language tag="fr-FR">Language/BE/fr-FR.com_joomsport.ini</language>
+	<language tag="it-IT">Language/BE/it-IT.com_joomsport.ini</language>
+        <language tag="el-GR">Language/BE/el-GR.com_joomsport.ini</language>
+        <language tag="es-ES">Language/BE/es-ES.com_joomsport.ini</language>
+	<language tag="en-GB">Language/en-GB/en-GB.com_joomsport.menu.ini</language>
+        <language tag="fr-FR">Language/fr-FR/fr-FR.com_joomsport.menu.ini</language>
+	<language tag="it-IT">Language/it-IT/it-IT.com_joomsport.menu.ini</language>
+        <language tag="el-GR">Language/el-GR/el-GR.com_joomsport.menu.ini</language>
+        <language tag="es-ES">Language/es-ES/es-ES.com_joomsport.menu.ini</language>
+	<language tag="en-GB">Language/en-GB/en-GB.com_joomsport.sys.ini</language>
+        <language tag="fr-FR">Language/fr-FR/fr-FR.com_joomsport.sys.ini</language>
+	<language tag="it-IT">Language/it-IT/it-IT.com_joomsport.sys.ini</language>
+        <language tag="el-GR">Language/el-GR/el-GR.com_joomsport.sys.ini</language>
+        <language tag="es-ES">Language/es-ES/es-ES.com_joomsport.sys.ini</language>
+    </languages>
+  </administration>
+</install>

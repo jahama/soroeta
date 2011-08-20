@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+  <name>JoomSport</name>
+  <creationDate>September 2010</creationDate>
+  <author>BearDev</author>
+   <authorEmail>admin@beardev.com</authorEmail>
+  <authorUrl>www.beardev.com</authorUrl>
+  <version>1.1.1</version>
+  <description>JoomSport. Create your own league.</description>
+  
+  <files>
+    <filename>joomsport.php</filename>
+	<filename>index.html</filename>
+    <filename>bl_lang.php</filename>
+    <filename>controller.php</filename>
+    <filename>router.php</filename>
+	<filename>css/joomsport.css</filename>
+	<filename>css/admin_bl.css</filename>
+	<filename>css/index.html</filename>
+	<filename>images/downarrow.png</filename>
+	<filename>images/uparrow.png</filename>
+	<filename>images/month_f2.png</filename>
+	<filename>images/edit.png</filename>
+	<filename>images/quest.jpg</filename>
+	<filename>images/index.html</filename>
+	<filename>js/grid.js</filename>
+	<filename>js/index.html</filename>
+	<filename>views/index.html</filename>
+	<filename>views/blteam/view.html.php</filename>
+	<filename>views/blteam/index.html</filename>
+	<filename>views/blteam/tmpl/default.php</filename>
+	<filename>views/blteam/tmpl/default.xml</filename>
+	<filename>views/blteam/tmpl/index.html</filename>
+	<filename>views/ltable/view.html.php</filename>
+	<filename>views/ltable/metadata.xml</filename>
+	<filename>views/ltable/index.html</filename>
+	<filename>views/ltable/tmpl/default_calendar.php</filename>
+	<filename>views/ltable/tmpl/default.php</filename>
+	<filename>views/ltable/tmpl/default.xml</filename>
+	<filename>views/ltable/tmpl/calendar.xml</filename>
+	<filename>views/ltable/tmpl/calendar.php</filename>
+	<filename>views/ltable/tmpl/index.html</filename>
+	<filename>views/match/view.html.php</filename>
+	<filename>views/match/index.html</filename>
+	<filename>views/match/tmpl/default.php</filename>
+	<filename>views/match/tmpl/default.xml</filename>
+	<filename>views/match/tmpl/index.html</filename>
+	<filename>views/player/view.html.php</filename>
+	<filename>views/player/index.html</filename>
+	<filename>views/player/tmpl/default.php</filename>
+	<filename>views/player/tmpl/default.xml</filename>
+	<filename>views/player/tmpl/index.html</filename>
+	<filename>views/matchday/view.html.php</filename>
+	<filename>views/matchday/index.html</filename>
+	<filename>views/matchday/tmpl/default.php</filename>
+	<filename>views/matchday/tmpl/default.xml</filename>
+	<filename>views/matchday/tmpl/index.html</filename>
+	<filename>views/admin_matchday/view.html.php</filename>
+	<filename>views/admin_matchday/index.html</filename>
+	<filename>views/admin_matchday/tmpl/default.php</filename>
+	<filename>views/admin_matchday/tmpl/default.xml</filename>
+	<filename>views/admin_matchday/tmpl/index.html</filename>
+	<filename>views/admin_player/view.html.php</filename>
+	<filename>views/admin_player/index.html</filename>
+	<filename>views/admin_player/tmpl/default.php</filename>
+	<filename>views/admin_player/tmpl/default.xml</filename>
+	<filename>views/admin_player/tmpl/index.html</filename>
+	<filename>views/admin_team/view.html.php</filename>
+	<filename>views/admin_team/index.html</filename>
+	<filename>views/admin_team/tmpl/default.php</filename>
+	<filename>views/admin_team/tmpl/default.xml</filename>
+	<filename>views/admin_team/tmpl/index.html</filename>
+	<filename>views/edit_match/view.html.php</filename>
+	<filename>views/edit_match/index.html</filename>
+	<filename>views/edit_match/tmpl/default.php</filename>
+	<filename>views/edit_match/tmpl/default.xml</filename>
+	<filename>views/edit_match/tmpl/index.html</filename>
+	<filename>views/edit_matchday/view.html.php</filename>
+	<filename>views/edit_matchday/index.html</filename>
+	<filename>views/edit_matchday/tmpl/default.php</filename>
+	<filename>views/edit_matchday/tmpl/default.xml</filename>
+	<filename>views/edit_matchday/tmpl/index.html</filename>
+	<filename>views/edit_player/view.html.php</filename>
+	<filename>views/edit_player/index.html</filename>
+	<filename>views/edit_player/tmpl/default.php</filename>
+	<filename>views/edit_player/tmpl/default.xml</filename>
+	<filename>views/edit_player/tmpl/index.html</filename>
+	<filename>views/edit_team/view.html.php</filename>
+	<filename>views/edit_team/index.html</filename>
+	<filename>views/edit_team/tmpl/default.php</filename>
+	<filename>views/edit_team/tmpl/default.xml</filename>
+	<filename>views/edit_team/tmpl/index.html</filename>
+	<filename>views/moderadmin_player/view.html.php</filename>
+	<filename>views/moderadmin_player/index.html</filename>
+	<filename>views/moderadmin_player/tmpl/default.php</filename>
+	<filename>views/moderadmin_player/tmpl/default.xml</filename>
+	<filename>views/moderadmin_player/tmpl/index.html</filename>
+	<filename>views/moderedit_match/view.html.php</filename>
+	<filename>views/moderedit_match/index.html</filename>
+	<filename>views/moderedit_match/tmpl/default.php</filename>
+	<filename>views/moderedit_match/tmpl/default.xml</filename>
+	<filename>views/moderedit_match/tmpl/index.html</filename>
+	<filename>views/moderedit_matchday/view.html.php</filename>
+	<filename>views/moderedit_matchday/index.html</filename>
+	<filename>views/moderedit_matchday/tmpl/default.php</filename>
+	<filename>views/moderedit_matchday/tmpl/default.xml</filename>
+	<filename>views/moderedit_matchday/tmpl/index.html</filename>
+	<filename>views/moderedit_player/view.html.php</filename>
+	<filename>views/moderedit_player/index.html</filename>
+	<filename>views/moderedit_player/tmpl/default.php</filename>
+	<filename>views/moderedit_player/tmpl/default.xml</filename>
+	<filename>views/moderedit_player/tmpl/index.html</filename>
+	<filename>views/moderedit_team/view.html.php</filename>
+	<filename>views/moderedit_team/index.html</filename>
+	<filename>views/moderedit_team/tmpl/default.php</filename>
+	<filename>views/moderedit_team/tmpl/default.xml</filename>
+	<filename>views/moderedit_team/tmpl/index.html</filename>
+	<filename>includes/func.php</filename>
+	<filename>includes/thumb.php</filename>
+	<filename>includes/tabs.php</filename>
+	<filename>includes/index.html</filename>
+	<filename>controllers/admin.php</filename>
+	<filename>controllers/moder.php</filename>
+ 	<filename>controllers/index.html</filename>
+	<filename>templates/default.css</filename>
+	<filename>templates/index.html</filename>
+ 	<filename>libs/season.php</filename>
+	<filename>libs/index.html</filename>
+</files>
+	
+  <install>
+    <queries>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_ranksort` (
+		  `seasonid` int(11) NOT NULL,
+		  `sort_field` varchar(255) NOT NULL,
+		  `sort_way` varchar(1) NOT NULL,
+		  `ordering` int(11) NOT NULL
+		)ENGINE=MyISAM DEFAULT CHARSET=utf8
+	</query>
+	<query>CREATE TABLE IF NOT EXISTS `#__bl_squard` (
+	  `match_id` int(11) NOT NULL default '0',
+	  `team_id` int(11) NOT NULL default '0',
+	  `player_id` int(11) NOT NULL default '0',
+	  `mainsquard` char(1) NOT NULL default '1',
+	  PRIMARY KEY  (`match_id`,`team_id`,`player_id`)
+	 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	</query>
+	<query>CREATE TABLE IF NOT EXISTS `#__bl_moders` (
+	  `uid` int(11) NOT NULL default '0',
+	  `tid` int(11) NOT NULL default '0',
+	  PRIMARY KEY  (`uid`,`tid`)
+	 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	</query>
+    <query>CREATE TABLE IF NOT EXISTS `#__bl_config` (
+	  `cfg_name` varchar(255) NOT NULL default '',
+	  `cfg_value` varchar(255) NOT NULL default ''
+	 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	  </query>
+	  <query>CREATE TABLE IF NOT EXISTS `#__bl_feadmins` (
+	  `user_id` int(11) NOT NULL default '0',
+	  `season_id` int(11) NOT NULL default '0',
+	  PRIMARY KEY  (`user_id`,`season_id`)
+	 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	  </query>
+      <query>CREATE TABLE IF NOT EXISTS `#__bl_assign_photos` (
+	  `photo_id` int(11) NOT NULL default '0',
+	  `cat_id` int(11) NOT NULL default '0',
+	  `cat_type` int(11) NOT NULL default '0',
+	  PRIMARY KEY  (`photo_id`,`cat_id`,`cat_type`)
+	 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	  </query>
+	  <query>
+		CREATE TABLE IF NOT EXISTS `#__bl_events` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `e_name` varchar(255) NOT NULL default '',
+		  `e_img` varchar(255) NOT NULL default '',
+		  `e_descr` text NOT NULL,
+		  `player_event` char(1) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>CREATE TABLE IF NOT EXISTS `#__bl_extra_filds` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `name` varchar(255) NOT NULL default '',
+		  `published` char(1) NOT NULL default '1',
+		  `type` char(1) NOT NULL default '0',
+		  `ordering` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		)
+	</query>
+	<query>CREATE TABLE IF NOT EXISTS `#__bl_extra_values` (
+		  `f_id` int(11) NOT NULL default '0',
+		  `uid` int(11) NOT NULL default '0',
+		  `fvalue` varchar(255) NOT NULL default '',
+		  PRIMARY KEY  (`f_id`,`uid`)
+		)
+	</query>	
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_groups` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `group_name` varchar(255) NOT NULL default '',
+		  `s_id` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_grteams` (
+		  `g_id` int(11) NOT NULL default '0',
+		  `t_id` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`g_id`,`t_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_languages` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `lang_file` varchar(255) NOT NULL default '',
+		  `is_default` char(1) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+	</query>
+	<query>	
+		CREATE TABLE IF NOT EXISTS `#__bl_match` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `m_id` int(11) NOT NULL default '0',
+		  `team1_id` int(11) NOT NULL default '0',
+		  `team2_id` int(11) NOT NULL default '0',
+		  `score1` int(11) NOT NULL default '0',
+		  `score2` int(11) NOT NULL default '0',
+		  `bonus1` int(11) NOT NULL default '0',
+		  `bonus2` int(11) NOT NULL default '0',
+		  `match_descr` text NOT NULL,
+		  `published` char(1) NOT NULL default '0',
+		  `is_extra` char(1) NOT NULL default '0',
+		  `m_played` char(1) NOT NULL default '0',
+		  `m_date` date NOT NULL default '0000-00-00',
+		  `m_time` varchar(10) NOT NULL default '',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_match_events` (
+		  `e_id` int(11) NOT NULL default '0',
+		  `player_id` int(11) NOT NULL default '0',
+		  `match_id` int(11) NOT NULL default '0',
+		  `ecount` int(11) NOT NULL default '0',
+		  `minutes` varchar(255) NOT NULL default '',
+		  `t_id` int(11) NOT NULL default '0'
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_matchday` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `m_name` varchar(255) NOT NULL default '',
+		  `m_descr` text NOT NULL,
+		  `s_id` int(11) NOT NULL default '0',
+		  `is_playoff` char(1) NOT NULL default '0',
+		  PRIMARY KEY  (`id`),
+		  KEY `t_id` (`s_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_photos` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `ph_name` varchar(255) NOT NULL default '',
+		  `ph_filename` varchar(255) NOT NULL default '',
+		  `ph_descr` text NOT NULL,
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		
+		CREATE TABLE IF NOT EXISTS `#__bl_players` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `first_name` varchar(255) NOT NULL default '',
+		  `last_name` varchar(255) NOT NULL default '',
+		  `nick` varchar(255) NOT NULL default '',
+		  `about` text NOT NULL,
+		  `position_id` int(11) NOT NULL default '0',
+		  `def_img` int(11) NOT NULL default '0',
+		  `team_id` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_positions` (
+		  `p_id` int(11) NOT NULL auto_increment,
+		  `p_name` varchar(255) NOT NULL default '',
+		  PRIMARY KEY  (`p_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+	</query>
+
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_season_teams` (
+		  `season_id` int(11) NOT NULL default '0',
+		  `team_id` int(11) NOT NULL default '0',
+		  `bonus_point` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`season_id`,`team_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_seasons` (
+		  `s_id` int(11) NOT NULL auto_increment,
+		  `s_name` varchar(255) NOT NULL default '',
+		  `s_descr` text NOT NULL,
+		  `s_rounds` int(11) NOT NULL default '1',
+		  `t_id` int(11) NOT NULL default '0',
+		  `published` char(1) NOT NULL default '0',
+		  `s_win_point` int(11) NOT NULL default '0',
+		  `s_lost_point` int(11) NOT NULL default '0',
+		  `s_enbl_extra` int(11) NOT NULL default '0',
+		  `s_extra_win` int(11) NOT NULL default '0',
+		  `s_extra_lost` int(11) NOT NULL default '0',
+		  `s_draw_point` int(11) NOT NULL default '0',
+		  `s_groups` int(11) NOT NULL default '0',
+		  `s_win_away` int(11) NOT NULL default '0',
+		  `s_draw_away` int(11) NOT NULL default '0',
+		  `s_lost_away` int(11) NOT NULL default '0',
+		  PRIMARY KEY  (`s_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_tblcolors` (
+		  `s_id` int(11) NOT NULL default '0',
+		  `place` varchar(35) NOT NULL default '',
+		  `color` varchar(10) NOT NULL default ''
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_teams` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `t_name` varchar(255) NOT NULL default '',
+		  `t_descr` text NOT NULL,
+		  `t_yteam` char(1) NOT NULL default '0',
+		  `def_img` int(11) NOT NULL default '0',
+		  `t_emblem` varchar(255) NOT NULL default '',
+		  `t_city` varchar(255) NOT NULL default '',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+	</query>
+	<query>
+		CREATE TABLE IF NOT EXISTS `#__bl_tournament` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `name` varchar(255) NOT NULL default '',
+		  `descr` text NOT NULL,
+		  `published` char(1) NOT NULL default '0',
+		  PRIMARY KEY  (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+      </query>
+      <query>
+     	 CREATE TABLE IF NOT EXISTS `#__bl_season_option` (
+		  `s_id` int(11) NOT NULL default '0',
+		  `opt_name` varchar(255) NOT NULL default '',
+		  `opt_value` varchar(255) NOT NULL default '',
+		  PRIMARY KEY  (`s_id`,`opt_name`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 ;
+      </query>
+
+
+     </queries>
+  </install>
+  <languages>
+        <language tag="en-GB">Language/FE/en-GB.com_joomsport.ini</language>
+        <language tag="fr-FR">Language/FE/fr-FR.com_joomsport.ini</language>
+		<language tag="it-IT">Language/FE/it-IT.com_joomsport.ini</language>
+ 		<language tag="ru-RU">Language/FE/ru-RU.com_joomsport.ini</language>
+        <language tag="el-GR">Language/FE/el-GR.com_joomsport.ini</language>
+        <language tag="es-ES">Language/FE/es-ES.com_joomsport.ini</language>
+   </languages>	
+  <installfile>install.joomsport.php</installfile>
+  <administration>
+    <menu>JoomSport</menu>
+	<submenu>
+        <menu task="tour_list">Torneo</menu>
+		<menu task="season_list">Stagione</menu>
+        <menu task="team_list">Squadre</menu>
+ 		<menu task="matchday_list">Incontri</menu>
+        <menu task="player_list">Giocatori</menu>
+        <menu task="pos_list">Ruolo</menu>
+        <menu task="event_list">Eventi</menu>    
+        <menu task="group_list">Gruppi</menu> 
+		<menu task="fields_list">Campi Addizionali</menu>      
+		<menu task="languages">Lingue</menu>
+		<menu task="config">Configurazione</menu>
+		<menu task="moder_list">Capitani Squadra</menu>
+		<menu task="help">Aiuto</menu>
+		<menu task="about">Informazioni</menu>      
+	         
+    </submenu>
+    <files>
+	<filename>img/beardev.gif</filename>
+	<filename>img/players.png</filename>
+	<filename>img/positions.png</filename>
+	<filename>img/tournament.png</filename>
+	<filename>img/matchday.png</filename>
+	<filename>img/events.png</filename>
+	<filename>img/teams.png</filename>
+	<filename>img/blleg.png</filename>
+	<filename>img/logobig.png</filename>
+	<filename>img/logobigbright.png</filename>
+	<filename>img/bl-logo.gif</filename>
+	<filename>img/quest.jpg</filename>
+
+	<filename>img/joomsportext.png</filename>
+	<filename>img/index.html</filename>
+		<filename>index.html</filename>
+		<filename>admin.joomsport.html.php</filename>
+		<filename>admin.joomsport.php</filename>
+		<filename>language.joomsport.php</filename>
+		<filename>admin.joomsport.class.php</filename>
+		<filename>toolbar.joomsport.php</filename>
+		<filename>toolbar.joomsport.html.php</filename>
+		<filename>jbl_about.php</filename>
+		<filename>jbl_help.php</filename>
+	<filename>elements/match.php</filename>
+	<filename>elements/player.php</filename>
+	<filename>elements/team.php</filename>
+	<filename>elements/season.php</filename>
+	<filename>elements/matchday.php</filename>
+	<filename>elements/modevent.php</filename>
+	<filename>elements/modseas.php</filename>
+	<filename>elements/modteam.php</filename>
+	<filename>elements/moduleseas.php</filename>
+	<filename>elements/index.html</filename>
+	  <filename>bearleague/player_st.gif</filename>
+	  <filename>bearleague/teams_st.gif</filename>
+	  <filename>bearleague/index.html</filename>
+	  <filename>bearleague/events/red_card.png</filename>
+	  <filename>bearleague/events/yellow_card.png</filename>
+	  <filename>bearleague/events/yellow-red_card.png</filename>
+	  <filename>bearleague/events/boot.png</filename>
+	  <filename>bearleague/events/ball.png</filename>
+	  <filename>bearleague/events/index.html</filename>
+	  <filename>bearleague/languages/default.php</filename>
+
+
+	  <filename>bearleague/thumbs/index.html</filename>
+	<filename>color_piker/201a.js</filename>
+	<filename>color_piker/style.css</filename>
+	<filename>color_piker/index.html</filename>
+    </files>
+	<languages>
+        <language tag="en-GB">Language/BE/en-GB.com_joomsport.ini</language>
+        <language tag="fr-FR">Language/BE/fr-FR.com_joomsport.ini</language>
+		<language tag="it-IT">Language/BE/it-IT.com_joomsport.ini</language>
+ 		<language tag="ru-RU">Language/BE/ru-RU.com_joomsport.ini</language>
+        <language tag="el-GR">Language/BE/el-GR.com_joomsport.ini</language>
+        <language tag="es-ES">Language/BE/es-ES.com_joomsport.ini</language>
+    </languages>
+  </administration>
+</install>

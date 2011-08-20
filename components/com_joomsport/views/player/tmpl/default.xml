@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Player Layout">
+		<message>
+			<![CDATA[STANDARD ARTICLE LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Player Layout</name>
+		<description>Player Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="id" type="player" default="0" label="Select Player" description="Player" />
+			<param name="sid" type="season" default="0" label="Select Season" description="Season" /> 
+		</url>
+		<params>
+		</params>
+	</state>
+	<!-- 1.6 -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_joomsport/fields">
+
+			<field name="id" type="player" default="0" label="Select Player" description="Player" required="true" />
+		</fieldset>
+	</fields>
+
+</metadata>

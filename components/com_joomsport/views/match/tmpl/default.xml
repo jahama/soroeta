@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Match Layout">
+		<message>
+			<![CDATA[Match Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Match Layout</name>
+		<description>Match Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="id" type="match" default="0" label="Select Match" description="Match" />
+		</url>
+		<params>
+		</params>
+	</state>
+	<!-- 1.6 -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_joomsport/fields">
+
+			<field name="id" type="match" default="0" required="true" label="Select Match" description="Match" />
+		</fieldset>
+	</fields>
+</metadata>
