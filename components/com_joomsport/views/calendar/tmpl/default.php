@@ -1,3 +1,8 @@
+<?/*
+ *
+ * Plantilla para mostrar los resultado de los partidos 
+ */
+?> 
 <?php // no direct access
 defined('_JEXEC') or die('Restricted access'); 
 jimport('joomla.html.pane');
